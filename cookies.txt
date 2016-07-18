@@ -1,0 +1,16 @@
+# Cookies for domains related to kaggle.com.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt https://www.kaggle.com/
+#
+.kaggle.com	TRUE	/	TRUE	1516359338.001674	.ASPXAUTH	B3CE28ABCBC29A6297637B39E64D8DBBE27C889C6C05D36CBCC4C87184AC3E2B0520266A517462C3335E4C7177287905AA8C730B52E6514C3FAF5FD3068EAC467FD36BEE81212609688ABB2A67A9CCAD82C86203
+.kaggle.com	TRUE	/	FALSE	1779067441	optimizelyEndUserId	oeu1463707441033r0.6870069251486162
+.kaggle.com	TRUE	/	FALSE	1784004739	optimizelySegments	%7B%225684981785%22%3A%22false%22%2C%225646609362%22%3A%22direct%22%2C%225668443100%22%3A%22gc%22%7D
+.kaggle.com	TRUE	/	FALSE	1784004739	optimizelyBuckets	%7B%225909990047%22%3A%225905010050%22%7D
+.blog.kaggle.com	TRUE	/	FALSE	1531718827	__utma	176227318.1241957633.1468646827.1468646827.1468646827.1
+.blog.kaggle.com	TRUE	/	FALSE	1484414827	__utmz	176227318.1468646827.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+www.kaggle.com	FALSE	/	FALSE	0	__RequestVerificationToken	5fLhUkpPChqAR1gt9jyV-xvcCMT2EschunrsKRNzoYaBdPEtr0rDBX7OxmmHH4m46-Hkt7Geq0uHOKX1bywEycadTQY1
+.kaggle.com	TRUE	/	FALSE	1468730662	__utmt	1
+.kaggle.com	TRUE	/	FALSE	1531802601	__utma	158690720.1106263127.1453200675.1468644743.1468730063.68
+.kaggle.com	TRUE	/	FALSE	1468732401	__utmb	158690720.6.10.1468730063
+.kaggle.com	TRUE	/	FALSE	0	__utmc	158690720
+.kaggle.com	TRUE	/	FALSE	1484498601	__utmz	158690720.1468730063.68.19.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)

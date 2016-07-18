@@ -1,0 +1,5 @@
+credentials.cfg
+*.sublime-project
+*.sublime-workspace
+env-*
+data
