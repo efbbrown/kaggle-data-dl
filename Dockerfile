@@ -1,5 +1,9 @@
 FROM ubuntu:latest
 MAINTAINER Eugene Brown "efbbrown@gmail.com"
 RUN apt-get update -y
-COPY . /dir
-WORKDIR /dir
+RUN apt-get install -y python-pip python-dev build-essential
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+CMD ["scrape-comps.py"]
