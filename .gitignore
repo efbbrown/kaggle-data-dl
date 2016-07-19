@@ -3,3 +3,4 @@ credentials.cfg
 *.sublime-workspace
 env-*
 data
+cookies.txt
