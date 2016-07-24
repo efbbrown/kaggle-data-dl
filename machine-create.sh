@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source credentials.cfg
-source config.cfg
+# source config.cfg
 
 docker-machine create --driver amazonec2 \
 					  --amazonec2-region $REGION \
