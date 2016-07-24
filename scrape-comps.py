@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import urllib
 import json
 r = urllib.urlopen("https://www.kaggle.com/competitions").read()
-soup = BeautifulSoup(r)
+soup = BeautifulSoup(r, "html.parser")
 featured_comps = soup.find("ul", id="featured")
 comps = featured_comps.find_all("div", class_="front-comp-details")
 comp_table = []
