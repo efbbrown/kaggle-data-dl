@@ -1,1 +1,6 @@
-machine-create.sh
+scrape-comps.py
+*.sublime-project
+env-data-dl
+img
+README.md
+tmp

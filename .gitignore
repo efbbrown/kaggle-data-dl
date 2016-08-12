@@ -5,3 +5,4 @@ env-*
 data
 cookies.txt
 tmp
+scrape-comps.py
