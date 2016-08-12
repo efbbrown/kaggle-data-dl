@@ -1,12 +1,10 @@
 # Overview
 
-This project downloads all datasets for a specified Kaggle competition in one line:
+This project downloads all datasets for a specified Kaggle competition in one line, saving the time of competitors so that they can focus on modelling.
 
+### Run without docker
 
-
-The command `./app.sh $COMP` will visit
-
-## Run it as a docker container
+### Run with docker
 
 `docker run -v $(pwd):/tmp/ efbbrown/kaggle-data-dl:0.2.4 ./app.sh $COMP`
 
@@ -33,9 +31,11 @@ To demonstrate how to run this code I will use it to collect the data sets for t
 
 If you're working in a shell:
 
-`~$ COMP=predicting-red-hat-business-value`
-`~$ mkdir $COMP`
-`~$ cd $COMP`
+```
+COMP=predicting-red-hat-business-value
+mkdir $COMP
+cd $COMP
+```
 
 ## 3. You need to save your cookies.txt file from the [Kaggle homepage](https://www.kaggle.com/).
 
@@ -47,15 +47,15 @@ The [cookie.txt export extension](https://chrome.google.com/webstore/detail/cook
 
 ### Github
 
-git clone https://github.com/efbbrown/kaggle-data-dl.git
+`git clone https://github.com/efbbrown/kaggle-data-dl.git`
 
 ### Docker
 
-docker pull efbbrown/kaggle-data-dl
+`docker pull efbbrown/kaggle-data-dl`
 
 5. Run the docker function
 
-`~$ docker run -v $(pwd):/tmp/ efbbrown/kaggle-data-dl:0.2.4 ./app.sh $COMP`
+`~$ docker run -v $(pwd):/tmp/ efbbrown/kaggle-data-dl ./app.sh $COMP`
 
 This call runs the image with arguments:
  - `-v $(pwd):/tmp/` - With a volume between the present host directory and the /tmp/ folder of the image. This means the cookies.txt file is shared with the image and the competition data files the image downloads will be shared with the host computer.
